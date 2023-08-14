@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    
+    background-image: linear-gradient(to right,rgba(192, 73, 172,0.8) ,rgba(137, 191, 229,0.8) );
+   background-repeat: no-repeat;
+   background-size: cover;
+    height: 100vh;
+  
+   
+}
+.info{
+    
+    height:100vh;
+    width:600px;
+    color:white;
+    background-color:black;
+    margin:0 auto;
+    position: relative;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    right:50rem;
+}
+
+p{
+    
+color:rgb(197, 45, 45);
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 710px;
+ font-size: 22px;
+ font-weight: 600;
+ position: relative;
+ top:10px;
+}
+.start{
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    height:40px;
+    width:105px;
+    border:none;
+    border-radius: 10px;
+   position: relative;
+   margin-right: 5px;
+ 
+}
+.btn{
+    
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top:75px;
+    right: 90px;
+   
+}
+.stop{
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    height:40px;
+    width:105px;
+    border:none;
+    border-radius: 10px;
+    position: relative;
+   
+}
+.snake{
+    background-image: linear-gradient(rgb(32, 204, 32) 90% ,rgba(227, 25, 11, 0.8) 15% );;
+    height:180px;
+    width:25px;
+   
+    position:absolute;
+    right:5px;
+    
+    
+}
+.food{
+    /*transform: translate(0,0);*/
+    height:25px;
+    width:25px;
+    background-color: blueviolet;
+   margin:500px  auto 0;
+   box-shadow: -5px 4px 5px rgb(187, 56, 187);
+}
